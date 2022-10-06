@@ -1,0 +1,11 @@
+@import './header', './variables';
+
+.contact{
+    // @include flexCenter(row, rgb(5, 78, 102));
+
+
+    @extend header;
+    // This copies all the styles from _header.scss
+    background-color: lightcoral;
+    width: 100% - 20%;
+}
